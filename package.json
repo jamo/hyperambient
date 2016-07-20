@@ -1,0 +1,25 @@
+{
+  "name": "hyperambient",
+  "version": "0.0.0",
+  "author": "@jamox",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamox/hyperambient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamox/hyperambient/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "hyperterm"
+  ],
+  "description": "A Hyperterm theme that reacts to ambient light",
+  "dependencies": {
+    "ambientlight": "0.0.2"
+  }
+}
