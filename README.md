@@ -15,7 +15,9 @@ Install HyperTerm and add hyperambient to plugins in ~/.hyperterm.js.
 
 ## How to use
 
-When lightning conditions change, reload plugins so that the color scheme can be changed if necessary.
+It automatically checks for ambient light changes and changes color shceme if neccesary - keep on using hyperterm for a while when ambient lightning condition change.
+
+Should you want the changes to reflect immediately you'll need to make a Full Reload to all plugins (shift + cmd + R)
 
 ## TODO
 
