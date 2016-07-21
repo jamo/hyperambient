@@ -11,11 +11,14 @@ Let me introduce HyperAmbient - the HyperTerm theme that that changes the color 
 
 The theme toggles between [hyperterm-solarized-light](https://www.npmjs.com/package/hyperterm-solarized-light) and  [hyperterm-solarized-dark](https://www.npmjs.com/package/hyperterm-solarized-dark)
 
-NOTE: Currently underlying implementation for accessing ambient light only works in OSX.
+NOTE: Currently underlying implementation for accessing ambient light sensor data only works in OSX.
 
 ## How install
 
 Install HyperTerm and add hyperambient to plugins in ~/.hyperterm.js.
+```json
+ plugins: ["hyperambient"],
+ ```
 
 ## How to use
 
