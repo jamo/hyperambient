@@ -44,7 +44,10 @@ Should you want to use alternative HyperTerm themes for light and dark ambient l
 }
 ```
 
-For this change to take effect, you must **twise** run the Plugins -> Update All Now and ignore possible errors during the first load.
+For this change to take effect, you may need to run the Plugins -> Update All  **twise**, and ignore possible errors after the first run.
+The update process may take a while and there is no clear progress bar. So be patient.
+
+Also, after modifying the `~/.hyperambient.json` Plugins -> Update All may need to be run **twise**!
 
 ### Troubleshooting
 
