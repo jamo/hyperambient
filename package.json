@@ -1,6 +1,6 @@
 {
-  "name": "hyperambient",
-  "version": "0.2.1",
+  "name": "hyperambient-beta",
+  "version": "0.3.0",
   "author": "@jamox",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
     "url": "https://github.com/jamox/hyperambient/issues"
   },
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint index.js",
+    "preinstall": "node preinstall.js"
   },
   "licenses": [
     {
