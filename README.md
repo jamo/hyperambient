@@ -3,7 +3,7 @@
 Due to changing lightning conditions using just one color scheme rarely suffices. Especially when moving from indoors to sunny outdoors a dark color scheme that looked incredible inside is almost unreadable.
 Thus the terminal color scheme should react to ambient light changes!
 
-Let me introduce HyperAmbient - the HyperTerm theme that let's you use color scheme adequate to current ambient light.
+Let me introduce HyperAmbient - the HyperTerm theme that that changes the color scheme to fit the current ambient lighting conditions.
 
 The theme toggles between [hyperterm-solarized-light](https://www.npmjs.com/package/hyperterm-solarized-light) and  [hyperterm-solarized-dark](https://www.npmjs.com/package/hyperterm-solarized-dark)
 
