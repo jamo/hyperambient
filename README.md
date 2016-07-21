@@ -1,5 +1,7 @@
 # HyperAmbient - A HyperTerm theme that responds to ambient light changes
 
+![Demo](https://github.com/jamox/hyperambient/blob/master/hyperambient.gif)
+
 Due to changing lightning conditions using just one color scheme rarely suffices. Especially when moving from indoors to sunny outdoors a dark color scheme that looked incredible inside is almost unreadable.
 Thus the terminal color scheme should react to ambient light changes!
 
