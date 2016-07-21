@@ -2,6 +2,8 @@
 
 ![Demo](https://github.com/jamox/hyperambient/blob/master/hyperambient.gif)
 
+> Moving from shadows to outdoors and back, the camera adjusted for the light changes - however, you may notice the color scheme changing from dark to light and back.
+
 Due to changing lightning conditions using just one color scheme rarely suffices. Especially when moving from indoors to sunny outdoors a dark color scheme that looked incredible inside is almost unreadable.
 Thus the terminal color scheme should react to ambient light changes!
 
