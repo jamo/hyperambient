@@ -8,7 +8,7 @@ const threshold = 15000000
 exports.decorateConfig = (config) => {
   var theme
   if (lux > threshold ) {
-    return = light.decorateConfig(config)
+    return light.decorateConfig(config)
   }
   return dark.decorateConfig(config)
 }
