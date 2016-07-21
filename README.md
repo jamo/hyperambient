@@ -1,5 +1,7 @@
 # HyperAmbient - A HyperTerm theme that responds to ambient light changes
 
+[![npm version](https://badge.fury.io/js/hyperambient.svg)](https://badge.fury.io/js/hyperambient)
+
 ![Demo](https://github.com/jamox/hyperambient/blob/master/hyperambient.gif)
 
 > Moving from shadows to outdoors and back, the camera adjusted for the light changes - however, you may notice the color scheme changing from dark to light and back.
