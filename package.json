@@ -25,7 +25,7 @@
   ],
   "description": "A Hyperterm theme that reacts to ambient light",
   "dependencies": {
-    "ambientlight": "^0.1.0",
+    "ambientlight": "^0.1.2",
     "hyperterm-solarized-dark": "^0.1.6",
     "hyperterm-solarized-light": "^0.1.1"
   },
