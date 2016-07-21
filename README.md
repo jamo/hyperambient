@@ -23,6 +23,13 @@ It automatically checks for ambient light changes and changes color shceme if ne
 
 Should you want the changes to reflect immediately you'll need to make a Full Reload to all plugins (shift + cmd + R)
 
+### Troubleshooting
+
+* The ambient light sensor is located next to facetime camera on most mac models
+* It takes a few event for the change to take place, try hitting enter for 50 times
+* Checkout DevTools log for possible ambient light readings.
+  * You might not exeed the threshold on which the color scheme is changed.
+
 ## TODO
 
 - [x] Automatically change color scheme when lightning conditions changes
