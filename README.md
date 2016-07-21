@@ -21,3 +21,5 @@ When lightning conditions change, reload plugins so that the color scheme can be
 
 - [x] Automatically change color scheme when lightning conditions changes
 - [ ] Make themes configurable
+- [ ] Make threshold configurable
+

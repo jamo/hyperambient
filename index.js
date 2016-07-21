@@ -4,7 +4,10 @@ const light = require('hyperterm-solarized-light')
 const dark = require('hyperterm-solarized-dark')
 const ambient = require('ambientlight')
 
+// Selected by taking multiple measurements from multiple inside and outside by
+// using the ambientlight library
 const threshold = 15000000
+
 exports.decorateConfig = (config) => {
   const lux = ambient()
   if (lux > threshold) {
