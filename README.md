@@ -31,6 +31,21 @@ It automatically checks for ambient light changes and changes color shceme if ne
 
 Should you want the changes to reflect immediately you'll need to make a Full Reload to all plugins (shift + cmd + R)
 
+### Customizing
+
+Should you want to use alternative HyperTerm themes for light and dark ambient lighting conditions, you may define the themes in `~/.hyperambient.json` like this:
+
+```javascript
+{
+  "config": {
+    "darkTheme": "hyperterm-gruvbox-dark",
+    "lightTheme": "hyperterm-one-light"
+  }
+}
+```
+
+For this change to take effect, you must **twise** run the Plugins -> Update All Now and ignore possible errors during the first load.
+
 ### Troubleshooting
 
 * The ambient light sensor is located next to facetime camera on most mac models
@@ -41,6 +56,6 @@ Should you want the changes to reflect immediately you'll need to make a Full Re
 ## TODO
 
 - [x] Automatically change color scheme when lightning conditions changes
-- [ ] Make themes configurable
+- [x] Make themes configurable
 - [ ] Make threshold configurable
 

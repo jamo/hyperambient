@@ -2,7 +2,7 @@
 
 const { homedir } = require('os')
 const { readFileSync, accessSync } = require('fs')
-const { resolve } = require('path');
+const { resolve } = require('path')
 
 const ambient = require('ambientlight')
 
