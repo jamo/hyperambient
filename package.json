@@ -10,6 +10,9 @@
   "bugs": {
     "url": "https://github.com/jamox/hyperambient/issues"
   },
+  "scripts": {
+    "test": "eslint index.js"
+  },
   "licenses": [
     {
       "type": "MIT",
@@ -25,5 +28,31 @@
     "ambientlight": "^0.1.0",
     "hyperterm-solarized-dark": "^0.1.6",
     "hyperterm-solarized-light": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "yoda": 0,
+      "semi": [
+        2,
+        "never"
+      ],
+      "no-undef": 0,
+      "no-unused-vars": 2,
+      "no-extra-semi": 2,
+      "semi-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ]
+    }
   }
 }
