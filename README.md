@@ -19,5 +19,5 @@ When lightning conditions change, reload plugins so that the color scheme can be
 
 ## TODO
 
-- [ ] Automatically change color scheme when lightning conditions changes
+- [x] Automatically change color scheme when lightning conditions changes
 - [ ] Make themes configurable
