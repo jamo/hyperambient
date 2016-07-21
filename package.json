@@ -11,7 +11,7 @@
     "url": "https://github.com/jamox/hyperambient/issues"
   },
   "scripts": {
-    "test": "eslint index.js",
+    "test": "eslint index.js preinstall.js",
     "preinstall": "node preinstall.js"
   },
   "licenses": [
