@@ -44,14 +44,14 @@ Should you want to use alternative HyperTerm themes for light and dark ambient l
 }
 ```
 
-For this change to take effect, you may need to run the Plugins -> Update All  **twise**, and ignore possible errors after the first run.
+For this change to take effect, you may need to run the Plugins -> Update All  **twice**, and ignore possible errors after the first run.
 The update process may take a while and there is no clear progress bar. So be patient.
 
-Also, after modifying the `~/.hyperambient.json` Plugins -> Update All may need to be run **twise**!
+Also, after modifying the `~/.hyperambient.json` Plugins -> Update All may need to be run **twice**!
 
 ### Troubleshooting
 
-* The ambient light sensor is located next to facetime camera on most mac models
+* The ambient light sensor is located next to facetime camera on most mac modelst
 * It takes a few event for the change to take place, try hitting enter for 50 times
 * Checkout DevTools log for possible ambient light readings.
   * You might not exeed the threshold on which the color scheme is changed.
