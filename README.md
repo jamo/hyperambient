@@ -1,5 +1,6 @@
 # HyperAmbient - A HyperTerm theme that responds to ambient light changes
 
+[![Build Status](https://travis-ci.org/jamox/hyperambient.svg?branch=master)](https://travis-ci.org/jamox/hyperambient)
 [![npm version](https://badge.fury.io/js/hyperambient.svg)](https://badge.fury.io/js/hyperambient)
 
 ![Demo](https://github.com/jamox/hyperambient/blob/master/hyperambient.gif)
