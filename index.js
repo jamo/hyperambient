@@ -1,8 +1,22 @@
 'use strict'
 
-const light = require('hyperterm-solarized-light')
-const dark = require('hyperterm-solarized-dark')
+const { homedir } = require('os')
+const { readFileSync, accessSync } = require('fs')
+const { resolve } = require('path');
+
 const ambient = require('ambientlight')
+
+const configfile = resolve(homedir(), '.hyperambient.json')
+var ambientConfig = { config: {} }
+try {
+  accessSync(configfile)
+  ambientConfig = JSON.parse(readFileSync(configfile, 'utf-8'))
+} catch (e) {
+  // NOP
+}
+
+const light = require(ambientConfig.config.lightTheme || 'hyperterm-solarized-light')
+const dark = require(ambientConfig.config.darkTheme || 'hyperterm-solarized-dark')
 
 // Selected by taking multiple measurements from multiple inside and outside by
 // using the ambientlight library
@@ -10,6 +24,7 @@ const threshold = 15000000
 
 exports.decorateConfig = (config) => {
   const lux = ambient()
+
   if (lux > threshold) {
     return light.decorateConfig(config)
   }
