@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git://github.com/jamox/hyperambient.git"
   },
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/jamox/hyperambient/issues"
   },
@@ -16,10 +17,13 @@
     }
   ],
   "keywords": [
-    "hyperterm"
+    "hyperterm",
+    "ambient light"
   ],
   "description": "A Hyperterm theme that reacts to ambient light",
   "dependencies": {
-    "ambientlight": "0.0.2"
+    "ambientlight": "^0.1.0",
+    "hyperterm-solarized-dark": "^0.1.6",
+    "hyperterm-solarized-light": "^0.1.1"
   }
 }
