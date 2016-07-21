@@ -32,8 +32,16 @@ exports.middleware = (store) => (next) => (action) => {
 exports.reduceUI = (state, action) => {
   switch (action.type) {
     case 'UPDATE_THEME':
-      console.log(`Ambient light: ${ambient()}`)
       const lux = ambient()
+      const oldReading = state.hyperambient || 0
+      const isBetween = Math.min(lux, oldReading) <= threshold && threshold <= Math.max(lux, oldReading)
+      console.log(`Ambient light: ${lux}`)
+
+      if (!isBetween) {
+        // No need to change the theme
+        return state.set('hyperambient', lux)
+      }
+
       var theme
       if (lux > threshold) {
         theme = light.decorateConfig(action.config)
@@ -48,7 +56,20 @@ exports.reduceUI = (state, action) => {
                   .set('colors', theme.colors)
                   .set('termCSS', theme.termCSS)
                   .set('css', theme.css)
+                  .set('hyperambient', lux)
   }
   return state
+}
+
+exports.mapTermsState = (state, map) => {
+  return Object.assign(map, {
+    hyperambient: state.ui.hyperambient
+  })
+}
+
+exports.getTermProps = (uid, parentProps, props) => {
+  return Object.assign(props, {
+    hyperambient: parentProps.hyperambient
+  })
 }
 
