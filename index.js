@@ -69,8 +69,8 @@ exports.reduceUI = (state, action) => {
                   .set('borderColor', theme.borderColor)
                   .set('cursorColor', theme.cursorColor)
                   .set('colors', theme.colors)
-                  .set('termCSS', theme.termCSS)
-                  .set('css', theme.css)
+                  .set('termCSS', `${config.termCSS || ''} ${theme.termCSS}`)
+                  .set('css', `${config.css || ''} ${theme.css}`)
                   .set('hyperambient', lux)
   }
   return state
